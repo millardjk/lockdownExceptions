@@ -3,7 +3,7 @@ python script that allows admins to bulk-update the user exception list for host
 
 ## Setup
 Download and populate config.py with your vCenter details </br>
-Update the "users" variable with the usernames to be added or removed from the exceptions list.
+Update the "users" variable in lockdown.py with the usernames to be added or removed from the exceptions list.
 
 ## Adding exceptions
 All the usernames being added to the exceptions list must already exist as local users on each host. This script doesn't have the facility for adding users "from scratch".</br>
