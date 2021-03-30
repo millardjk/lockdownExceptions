@@ -70,4 +70,4 @@ for host in hosts:
     for usr in users:
         print("  "+usr, end=", ")
         #print (append_exception_user(host,usr))
-        print (remove_exception_user(host,usr))
+        #print (remove_exception_user(host,usr))
